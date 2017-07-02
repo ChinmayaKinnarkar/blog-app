@@ -1,0 +1,16 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "RESTful API for a blog application containing APIs for creating,editing,deleting,viewing all blogs and viewing a particular blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+  	"express":"*",
+  	"body-parser":"*",
+  	"mongoose":"*"
+ },
+  "author": "Chinmaya Kinnarkar",
+  "license": "ISC"
+}
