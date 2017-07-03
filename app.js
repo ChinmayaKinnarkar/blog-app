@@ -29,7 +29,7 @@ app.use(function(req,res,next){
 //end applicaltion level middleware
 
 // including blogSchema and model
-var blog = require('./blogSchema.js');
+var blog = require('modules/blogSchema.js');
 
 var blogModel = mongoose.model('blog');
 // end include
